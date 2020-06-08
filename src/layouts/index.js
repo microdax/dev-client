@@ -6,8 +6,9 @@ import Header from './Header';
 import Footer from './Footer';
 
 const Layout = () =>   
-    <div className="text-center p-10 flex-1">  
-        "ssss"
+    <div id="wrapper">  
+        <Header />
+        <Footer />
     </div>;
 
 export {Layout, Header, Footer}; 
