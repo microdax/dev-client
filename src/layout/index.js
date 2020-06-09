@@ -5,10 +5,9 @@ import Header from './Header';
 
 import Footer from './Footer';
 
-const Layout = () =>   
+const Layout = (props) =>   
     <div id="wrapper">  
-        <Header />
-        <Footer />
+        {props.children}
     </div>;
 
 export {Layout, Header, Footer}; 

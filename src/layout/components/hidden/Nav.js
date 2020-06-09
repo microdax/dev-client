@@ -21,15 +21,17 @@ const navs = [
 ]
 
 const Nav = () => (
-    <nav className='bg-indigo-600 text-indigo-300 p-5 shadow'>
-        <ul className="flex space-x-6 justify-end">
+    <nav id="navigation">
+        <ul id="responsive">
             {navs.map((navItem) => (
                 <li>
-                <NavLink exact to={navItem.path} 
-                    activeClassName='text-indigo-100'>
-                        {navItem.name}
-                </NavLink>
-            </li>
+                    <a>
+                        <NavLink exact to={navItem.path} 
+                            className="current">
+                                {navItem.name}
+                        </NavLink>
+                    </a>
+                </li>
             ))}  
         </ul>
     </nav>
