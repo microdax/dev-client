@@ -386,13 +386,13 @@ body #submit_map {
 }
 
 .leaflet-control-layers-toggle {
-  background-image: url(images/layers.png);
+  background-image: url(../../images/layers.png);
   width: 36px;
   height: 36px;
 }
 
 .leaflet-retina .leaflet-control-layers-toggle {
-  background-image: url(images/layers-2x.png);
+  background-image: url(../../images/layers-2x.png);
   background-size: 26px 26px;
 }
 
@@ -443,7 +443,7 @@ body #submit_map {
 /* Default icon URLs */
 
 .leaflet-default-icon-path {
-  background-image: url(images/marker-icon.png);
+  background-image: url(../../images/marker-icon.png);
 }
 
 /* attribution and scale controls */
@@ -1016,7 +1016,7 @@ body #submit_map {
   height: 26px;
   border: none;
   background-color: white;
-  background-image: url(images/geocoder.png);
+  background-image: url(../../images/geocoder.png);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -1028,7 +1028,7 @@ body #submit_map {
 }
 
 .leaflet-control-geocoder-throbber .leaflet-control-geocoder-icon {
-  background-image: url(images/throbber.gif);
+  background-image: url(../../images/throbber.gif);
 }
 
 .leaflet-control-geocoder-form-no-error {
@@ -1420,7 +1420,7 @@ body #submit_map {
   height: 26px;
   border: none;
   background-color: white;
-  background-image: url(images/geocoder.png);
+  background-image: url(../../images/geocoder.png);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -1432,7 +1432,7 @@ body #submit_map {
 }
 
 .leaflet-control-geocoder-throbber .leaflet-control-geocoder-icon {
-  background-image: url(images/throbber.gif);
+  background-image: url(../../images/throbber.gif);
 }
 
 .leaflet-control-geocoder-form-no-error {

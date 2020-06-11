@@ -6,6 +6,8 @@ import logo from '../../assets/images/logo.png'
 // import '../../assets/css/style.css'
 // import '../../assets/css/bootstrap-grid.css'
 
+import './_header.scss'
+
 const Header = () => (
     <div id="header-container" className="fullwidth">
         <div id="header">

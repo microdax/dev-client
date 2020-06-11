@@ -7,15 +7,14 @@ import Footer from './component/headerfooter/footer.jsx'
 import HomePage from './pages/nav-homepage/homepage.jsx'
 import Blog from './pages/nav-blog/blog.jsx'
 
-// import './assets/css/style.css'
-// import './assets/css/bootstrap-grid.css'
+import '../src/assets/sass/style.scss'
 
 class App extends React.Component{
     // here will be add the user state
     render(){
         return(
-            <div id="wrapper" className="wrapper-with-transparent-header">
-                <BrowserRouter>
+            <BrowserRouter>
+                <div id="wrapper" className="wrapper-with-transparent-header">
                     <Header />
                     <Switch>
                         <Route path='/' component={HomePage} />
@@ -25,9 +24,9 @@ class App extends React.Component{
                         there will bee add some navigation and the page 
                         */}
                     </Switch>
-                    <Footer />         
-                </BrowserRouter>
-            </div>
+                    <Footer />    
+                </div>     
+            </BrowserRouter>
         )
     }
     

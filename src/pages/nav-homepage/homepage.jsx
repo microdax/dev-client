@@ -1,9 +1,7 @@
 /* eslint-disable no-unused-expressions */
 import React from 'react';
 
-// import {Layout} from '../../component/homepage';
-
-import '../../assets/css/style.css'
+// import {Layout} from '../../component/homepage'
 
 const HomePage = () => {
     return( 
@@ -187,6 +185,8 @@ const HomePage = () => {
             </div>
 
             {/* // 3. Popular Product */}
+
+            {/* // 4. Feature Product */}
             <div className="section gray margin-top-45 padding-top-65 padding-bottom-75">
                 <div className="container">
                     <div className="rot">
@@ -199,15 +199,124 @@ const HomePage = () => {
 
                             {/* Jobs Container */}
                             <div className="listings-container compact-list-layout margin-top-35">
-                                <div>HEllooo</div>
-                            </div>
+                                {/* Product details */}
+                                <div className="job-listing-details">
+                                     {/* 1. logo */}
+                                     <div className="job-listing-company-logo">
+                                        <img src="../../assets/images/company-logo-01.png"/>
+                                     </div>
+
+                                     {/* 2. details */}
+                                     <div className="job-listing-description">
+                                        <h3 className="job-listing-title">Ada peluang dibeli Jagung 3 Ton per minggu</h3>
+                                        <div className="job-listing-footer">
+                                            <ul>
+                                                <li><i className="icon-material-outline-business"></i>
+                                                    <div className="verified-badge" title="Verified Supplier" data-tippy-placement="top"/>
+                                                </li>
+                                                <li><i className="icon-material-outline-location-on"></i></li>
+                                                <li><i className="icon-material-outline-business-center"></i></li>
+                                                <li><i className="icon-material-outline-access-time"></i></li>
+                                            </ul>
+                                        </div>
+                                     </div>
+
+                                     {/* 3. apply button */}
+                                     <span className="list-apply-button ripple-effect">Apply Now</span>
+                                </div>
+                            </div>   
+
+                            <div className="listings-container compact-list-layout margin-top-35">
+                                {/* Product details */}
+                                <div className="job-listing-details">
+                                     {/* 1. logo */}
+                                     <div className="job-listing-company-logo">
+                                        <img src="../../assets/images/company-logo-01.png"/>
+                                     </div>
+
+                                     {/* 2. details */}
+                                     <div className="job-listing-description">
+                                        <h3 className="job-listing-title">Ada peluang dibeli Jagung 3 Ton per minggu</h3>
+                                        <div className="job-listing-footer">
+                                            <ul>
+                                                <li><i className="icon-material-outline-business"></i>
+                                                    <div className="verified-badge" title="Verified Supplier" data-tippy-placement="top"/>
+                                                </li>
+                                                <li><i className="icon-material-outline-location-on"></i></li>
+                                                <li><i className="icon-material-outline-business-center"></i></li>
+                                                <li><i className="icon-material-outline-access-time"></i></li>
+                                            </ul>
+                                        </div>
+                                     </div>
+
+                                     {/* 3. apply button */}
+                                     <span className="list-apply-button ripple-effect">Apply Now</span>
+                                </div>
+                            </div>   
+
+                            <div className="listings-container compact-list-layout margin-top-35">
+                                {/* Product details */}
+                                <div className="job-listing-details">
+                                     {/* 1. logo */}
+                                     <div className="job-listing-company-logo">
+                                        <img src="../../assets/images/company-logo-01.png"/>
+                                     </div>
+
+                                     {/* 2. details */}
+                                     <div className="job-listing-description">
+                                        <h3 className="job-listing-title">Ada peluang dibeli Jagung 3 Ton per minggu</h3>
+                                        <div className="job-listing-footer">
+                                            <ul>
+                                                <li><i className="icon-material-outline-business"></i>
+                                                    <div className="verified-badge" title="Verified Supplier" data-tippy-placement="top"/>
+                                                </li>
+                                                <li><i className="icon-material-outline-location-on"></i></li>
+                                                <li><i className="icon-material-outline-business-center"></i></li>
+                                                <li><i className="icon-material-outline-access-time"></i></li>
+                                            </ul>
+                                        </div>
+                                     </div>
+
+                                     {/* 3. apply button */}
+                                     <span className="list-apply-button ripple-effect">Apply Now</span>
+                                </div>
+                            </div>   
+
+                            <div className="listings-container compact-list-layout margin-top-35">
+                                {/* Product details */}
+                                <div className="job-listing-details">
+                                     {/* 1. logo */}
+                                     <div className="job-listing-company-logo">
+                                        <img src="../../assets/images/company-logo-01.png"/>
+                                     </div>
+
+                                     {/* 2. details */}
+                                     <div className="job-listing-description">
+                                        <h3 className="job-listing-title">Ada peluang dibeli Jagung 3 Ton per minggu</h3>
+                                        <div className="job-listing-footer">
+                                            <ul>
+                                                <li><i className="icon-material-outline-business"></i>
+                                                    <div className="verified-badge" title="Verified Supplier" data-tippy-placement="top"/>
+                                                </li>
+                                                <li><i className="icon-material-outline-location-on"></i></li>
+                                                <li><i className="icon-material-outline-business-center"></i></li>
+                                                <li><i className="icon-material-outline-access-time"></i></li>
+                                            </ul>
+                                        </div>
+                                     </div>
+
+                                     {/* 3. apply button */}
+                                     <span className="list-apply-button ripple-effect">Apply Now</span>
+                                </div>
+                            </div>                      
                         </div>
                     </div>
                 </div>
             </div>
 
-            {/* // 4. Feature Product */}
             {/* // 5. How it works */}
+            
+
             {/* // 6. Testimonials */}
             {/* // 7. Counters */}
         </div>
