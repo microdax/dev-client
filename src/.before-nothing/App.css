@@ -12846,12 +12846,12 @@ body #submit_map {
 	border-radius: 5px;
 	}
 .leaflet-control-layers-toggle {
-	/* background-image: url(images/layers.png); */
+	background-image: url(images/layers.png);
 	width: 36px;
 	height: 36px;
 	}
 .leaflet-retina .leaflet-control-layers-toggle {
-	/* background-image: url(images/layers-2x.png); */
+	background-image: url(images/layers-2x.png);
 	background-size: 26px 26px;
 	}
 .leaflet-touch .leaflet-control-layers-toggle {
@@ -12892,7 +12892,7 @@ body #submit_map {
 
 /* Default icon URLs */
 .leaflet-default-icon-path {
-	/* background-image: url(images/marker-icon.png); */
+	background-image: url(images/marker-icon.png);
 	}
 
 
@@ -13477,7 +13477,7 @@ body #submit_map {
   height: 26px;
   border: none;
   background-color: white;
-  /* background-image: url(images/geocoder.png); */
+  background-image: url(images/geocoder.png);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -13489,7 +13489,7 @@ body #submit_map {
 }
 
 .leaflet-control-geocoder-throbber .leaflet-control-geocoder-icon {
-  /* background-image: url(images/throbber.gif); */
+  background-image: url(images/throbber.gif);
 }
 
 .leaflet-control-geocoder-form-no-error {
@@ -13786,7 +13786,7 @@ text-overflow: ellipsis; */
 } 
 
 #leaflet-geocode-cont ul li.powered-by-osm strong:before {
-	/* background-image: url(https://i.imgur.com/YaiaYGw.png); */
+	background-image: url(https://i.imgur.com/YaiaYGw.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	content: "";
@@ -13849,7 +13849,7 @@ text-overflow: ellipsis; */
   height: 26px;
   border: none;
   background-color: white;
-  /* background-image: url(images/geocoder.png); */
+  background-image: url(images/geocoder.png);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -13861,7 +13861,7 @@ text-overflow: ellipsis; */
 }
 
 .leaflet-control-geocoder-throbber .leaflet-control-geocoder-icon {
-  /* background-image: url(images/throbber.gif); */
+  background-image: url(images/throbber.gif);
 }
 
 .leaflet-control-geocoder-form-no-error {

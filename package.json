@@ -20,6 +20,7 @@
     "magnific-popup": "^1.1.0",
     "maps": "^0.3.3",
     "mmenu-js": "^8.5.13",
+    "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
