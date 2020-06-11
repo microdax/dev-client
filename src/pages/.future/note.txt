@@ -1,0 +1,2 @@
+##future devevelopment for pages section notes
+1. combine the seller and buyer page to user page
