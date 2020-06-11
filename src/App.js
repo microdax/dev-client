@@ -6,6 +6,7 @@ import {Header, Footer, Layout} from './layout';
 import {Logo, Notif, UserMenu, Hamburger} from './layout/components';
 import {Beranda, Peluang, Penjual, Artikel} from './pages';
 
+
 import{
     BrowserRouter as Router,
     Switch,

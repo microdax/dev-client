@@ -1,5 +1,8 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
+import 'react-bootstrap';
+import 'react-bootstrap-select';
+import 'react-bootstrap-slider';
 
 const navs = [
     {
