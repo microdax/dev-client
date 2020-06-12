@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-expressions */
 import React from 'react';
 
+import '../../assets/sass/style.scss'
+
 // import {Layout} from '../../component/homepage'
 
 const HomePage = () => {
