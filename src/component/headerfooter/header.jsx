@@ -5,8 +5,9 @@ import logo from '../../assets/images/logo.png'
 
 const Header = () => (
     <div id="header-container" className="fullwidth">
-        <div id="header">  
-            <div className="container">
+        <div id="header">
+            <div className="container">  
+                
                 <div className="left-side">
                     {/* Logo section */}
                     <Link id="logo" to='/'>
@@ -20,6 +21,7 @@ const Header = () => (
                             <li><span><Link to='/needs'>Peluang</Link></span></li>
                             <li><span><Link to='/sells'>Penjual</Link></span></li>
                             <li><span><Link to='/blog'>Artikel</Link></span></li>
+                            <li><span><Link to='/blog'>Masuk/ Daftar</Link></span></li>
                         </ul>
                     </nav>        
 
@@ -41,9 +43,10 @@ const Header = () => (
                     --Mobile navigation button
                     */}
                 </div>
+            
             </div>
+            <div className="clearfix"></div>
         </div>
-        <div className="clearfix"></div>
     </div>
 )
 

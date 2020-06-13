@@ -4,7 +4,7 @@ import {Switch, Route} from 'react-router-dom'
 
 import Header from './component/headerfooter/header.jsx'
 import Footer from './component/headerfooter/footer.jsx'
-import HomePage from './pages/nav-homepage/homepage-copy.jsx'
+import HomePage from './pages/nav-homepage/homepage.jsx'
 import ProductNeed from './pages/nav-product.needed/product-needed.jsx'
 import ProductSell from './pages/nav-product.sell/product-sell.jsx'
 import Blog from './pages/nav-blog/blog.jsx'
