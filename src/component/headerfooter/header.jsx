@@ -17,8 +17,8 @@ const Header = () => (
                     <nav id="navigation">
                         <ul id="responsive">
                             <li><span><Link to='/'>Beranda</Link></span></li>
-                            <li><span><Link to='/'>Peluang</Link></span></li>
-                            <li><span><Link to='/'>Penjual</Link></span></li>
+                            <li><span><Link to='/needs'>Peluang</Link></span></li>
+                            <li><span><Link to='/sells'>Penjual</Link></span></li>
                             <li><span><Link to='/blog'>Artikel</Link></span></li>
                         </ul>
                     </nav>        

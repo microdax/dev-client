@@ -316,6 +316,7 @@ const HomePage = () => {
                 </div>
             </div>
 
+
             {/* // 5. How it works */}
             
 
